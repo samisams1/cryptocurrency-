@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       {activeMenu && (
       <Menu className='ant-menu-item-selected'>
-        <Menu.Item icon={<HomeOutlined />}>
+        <Menu.Item  icon={<HomeOutlined />}>
           <Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />}>
