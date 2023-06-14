@@ -1,7 +1,7 @@
 import { Layout, Space, Typography } from "antd";
 import React from "react";
 import {Routes,Route, Link} from 'react-router-dom';
-import { Navbar,HomePage, Cryptocurrencies, News, Exchanges } from "./components";
+import { Navbar,HomePage, Cryptocurrencies, News, Exchanges, CryptoDetails } from "./components";
 import './App.css';
 const App =()=>{
     return (
@@ -14,6 +14,7 @@ const App =()=>{
                 <div className="routes">
                     <Routes> <Route element={<HomePage/>} path="/" /> </Routes>
                     <Routes> <Route element={<Cryptocurrencies/>} path="/cryptocurrencies" /> </Routes>
+                    <Routes> <Route element={<CryptoDetails/>} path="/crypto/:coinId" /> </Routes>
                     <Routes> <Route element={<Exchanges/>} path="/exchanges" /> </Routes>
                     <Routes> <Route element={<News/>} path="/news" /> </Routes>
 
@@ -23,7 +24,7 @@ const App =()=>{
             <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
           <Link to="/">
-            Cryptoverse Inc.
+  <span style={{color:"green"}}> Developed</span>  <span style={{color:"yellow"}}>by</span><span style={{color:"red"}}>samsonmamushet3@gmail.com </span> 
           </Link> <br />
           All Rights Reserved.
         </Typography.Title>
