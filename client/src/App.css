@@ -24,7 +24,7 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background-color: rgb(0, 21, 41);
+    background-color: #4b075c;
 }
 
 .main{
@@ -41,11 +41,11 @@ a:hover{
     margin: 10px;
     height: 100vh;
     margin: 0px;
-    background-color: rgb(0, 21, 41);
+    background-color: #4b075c;
 }
 
 .logo-container{
-    background-color: #001529;
+    background-color: #4b075c;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -258,7 +258,7 @@ a:hover{
 }
 
 .coin-link:hover, .coin-stats:hover{
-    background-color: var(--bgSecondary);
+    background-color: "var(--bgSecondary);"
 }
 
 @media screen and (max-width:1000px){
@@ -370,9 +370,15 @@ width: 70%;
 }
 
 .footer {
-    background-color: #001529;
+    background-color: #4b075c;
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
 }
+.ant-menu-item-selected {
+    color: #e6f7ff;
+    background-color: #4b075c !important;
+    font-size: large;
+    font-weight: 700;
+  }

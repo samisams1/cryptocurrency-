@@ -35,7 +35,7 @@ const Navbar = () => {
         <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
-      <Menu theme="dark">
+      <Menu className='ant-menu-item-selected'>
         <Menu.Item icon={<HomeOutlined />}>
           <Link to="/">Home</Link>
         </Menu.Item>

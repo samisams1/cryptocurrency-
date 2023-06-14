@@ -22,7 +22,7 @@ const App =()=>{
             </Layout>
            
             <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2023
           <Link to="/">
   <span style={{color:"green"}}> Developed</span>  <span style={{color:"yellow"}}>by</span><span style={{color:"red"}}>samsonmamushet3@gmail.com </span> 
           </Link> <br />
